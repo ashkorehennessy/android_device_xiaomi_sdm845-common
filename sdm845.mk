@@ -225,8 +225,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_sdm845
 
 # Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
+# PRODUCT_PACKAGES += \
+#     vendor.lineage.health-service.default
 
 # LiveDisplay
 # PRODUCT_PACKAGES += \
@@ -355,8 +355,8 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay
 
 # Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+# PRODUCT_PACKAGES += \
+#     vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
