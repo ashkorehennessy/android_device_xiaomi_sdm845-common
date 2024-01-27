@@ -59,6 +59,11 @@ static uint32_t getBrightness(const LightState& state) {
         blue = blue * alpha / 0xff;
     }
 
+    // Divide RGB by 8 to reduce light brightness
+    red = red >> 3;
+    green = green >> 3;
+    blue = blue >> 3;
+
     return (77 * red + 150 * green + 29 * blue) >> 8;
 }
 
