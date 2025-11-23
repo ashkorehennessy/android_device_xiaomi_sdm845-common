@@ -43,6 +43,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'system_ext/lib64/libwfdnative.so': blob_fixup()
+        .add_needed('libinput_shim.so'),
     'vendor/etc/seccomp_policy/atfwd@2.0.policy': blob_fixup()
          .add_line_if_missing('gettid: 1'),
     ('vendor/lib/hw/audio.primary.sdm845.so', 'vendor/lib/hw/sound_trigger.primary.sdm845.so', 'vendor/lib/libaudioroute_ext.so'): blob_fixup()
