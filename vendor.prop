@@ -104,7 +104,7 @@ persist.vendor.qcom.bluetooth.soc=cherokee
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
-vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam,org.lineageos.aperture,org.lineageos.aperture.dev
+vendor.camera.aux.packagelist=com.android.camera,co.aospa.sense,org.lineageos.aperture,net.sourceforge.opencamera
 
 # Chipset
 ro.soc.manufacturer=Qualcomm
