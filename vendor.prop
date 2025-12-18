@@ -105,7 +105,7 @@ ro.bluetooth.a2dp_offload.supported=true
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
-vendor.camera.aux.packagelist=com.android.camera,co.aospa.sense,org.lineageos.aperture,net.sourceforge.opencamera
+vendor.camera.aux.packagelist=com.android.camera,co.aospa.sense,net.sourceforge.opencamera
 
 # Chipset
 ro.soc.manufacturer=Qualcomm
