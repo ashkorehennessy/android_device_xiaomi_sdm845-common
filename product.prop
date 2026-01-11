@@ -10,7 +10,7 @@ ro.lmk.swap_util_max=100
 ro.lmk.swap_free_low_percentage=15
 
 # eBPF
-ro.bpf.kver_override=5.4.299
+ro.bpf.kver_override=5.10.245
 
 # e-SIM
 masterclear.allow_retain_esim_profiles_after_fdr=true
